@@ -16,6 +16,7 @@ class MyOwnEventEmitter extends EventEmitter {
 
 const myEmitter = new MyOwnEventEmitter('Nick Event');
 
+
 myEmitter.once('reverse', (oldName, newName) => {
     console.log(`Name changed ${oldName} -> ${newName}`);
 });
