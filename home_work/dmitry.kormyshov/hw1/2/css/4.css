@@ -1,0 +1,14 @@
+footer {
+    color: green !important;
+    position: relative;
+}
+footer:after {
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 9999;
+    display: block;
+}
