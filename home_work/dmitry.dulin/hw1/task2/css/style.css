@@ -1,0 +1,11 @@
+.custom {
+  background: none;
+}
+
+.content-bg {
+  min-width: 860px;
+}
+
+.content {
+  max-height: 100%;
+}
