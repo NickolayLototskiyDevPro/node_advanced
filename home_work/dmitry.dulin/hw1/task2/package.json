@@ -1,0 +1,19 @@
+{
+  "name": "gulp-task",
+  "version": "1.0.0",
+  "description": "hw1",
+  "main": "gulpTask.js",
+  "dependencies": {},
+  "devDependencies": {
+    "bluebird": "^3.5.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node test.js"
+  },
+  "keywords": [
+    "Node"
+  ],
+  "author": "Dimitry Dulin",
+  "license": "ISC"
+}

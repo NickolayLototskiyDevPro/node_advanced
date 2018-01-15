@@ -1,0 +1,16 @@
+{
+   "name": "task3",
+   "version": "1.0.0",
+   "description": "Domain task",
+   "main": "index.js",
+   "scripts": {
+     "test": "echo \"Error: no test specified\" && exit 1"
+   },
+   "keywords": [],
+   "author": "Dmitry Dulin",
+   "license": "ISC",
+   "dependencies": {
+     "express": "latest",
+     "mongoose": "latest"
+   }
+ }

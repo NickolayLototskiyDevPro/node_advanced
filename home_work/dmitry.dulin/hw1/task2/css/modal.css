@@ -1,0 +1,11 @@
+.modal {
+  background: none;
+}
+
+.modal-without-bg {
+  min-width: 860px;
+}
+
+.modal-content {
+  max-height: 100%;
+}
