@@ -6,8 +6,8 @@ console.log(weakMap.get(key));
 key = {};
 console.log(weakMap.get(key));
 
-let Person = (function () {
-    let privateProps = new WeakMap();
+const Person = (function () {
+    const privateProps = new WeakMap();
   
     class Person {
       constructor(name) {

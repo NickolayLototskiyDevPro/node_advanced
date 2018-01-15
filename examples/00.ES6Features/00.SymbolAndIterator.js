@@ -10,14 +10,14 @@ class Iterator {
     }
 
     [Symbol.iterator]() {
-        if (!this.obj) {
-            return { value: undefined, done: true }
-        }
-
         let currentPosition = 0;
 
         return {
             next: () => {
+                if (!this.obj) {
+                    return { value: undefined, done: true }
+                }
+
                 const key = Object.keys(this.obj)[currentPosition++];
                 
                 return {
@@ -29,14 +29,14 @@ class Iterator {
     }
 }
 
-const array = [1,2,5]
-array[10] = 56
+const array = [1,2,5];
+array[10] = 56;
 
 for(let item of array){
     console.log(item);
 }
 
-let iterator = new Iterator(array);
+const iterator = new Iterator(array);
 for(let item of iterator){
     console.log(item);
 }
