@@ -1,0 +1,6 @@
+{
+  "name": "own",
+  "scripts": {
+    "start": "NODE_PATH=. nodemon index.js"
+  }
+}
