@@ -1,0 +1,51 @@
+{
+  "greeting": {
+    "req": [
+      "Hello!",
+      "Hi!"
+    ],
+    "res": [
+      "Hey!",
+      "What's up"
+    ]
+  },
+
+  "bye": {
+    "req": [
+      "Bye"
+    ],
+
+    "res": [
+      "Good Bye!",
+      "See you!"
+    ]
+  },
+
+  "howAreYou": {
+    "req": [
+      "How are you?",
+      "How is it going?"
+    ],
+    "res": [
+      "I'm okay, thank you!",
+      "Fine!",
+      "Not bad",
+      "Total nightmare"
+    ]
+  },
+
+  "randomPhrases": {
+    "req": [
+      "Wubba-lubba-dub-dub!",
+      "Get off the high road. We all got pink eye because you won't stop texting on the toilet.",
+      "Rubber baby bubby bunkers!",
+      "What's wrong Rick? Is it the quantum carburetor or something? "
+    ],
+
+    "res": [
+      "Rikki-Tikki-Tavi, biatch!",
+      "Lick, lick, lick my balls! Ha ha ha, yeah! Say that all the time!",
+      "Quantum carburetor? Jesus Morty, you can't just add a sci-fi word to a car word and hope it means something. Looks like something's wrong with the micro-verse battery."
+    ]
+  }
+}

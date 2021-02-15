@@ -1,0 +1,16 @@
+{
+  "apps" : [
+    {
+      "name"        : "chatbot_client",
+      "script"      : "index.js",
+      "args"        : ["--toto=heya coco", "-d", "1"],
+      "watch"       : true,
+      "ignore_watch": ["node_modules", "logs", "npbroject", ".idea", ".git"],
+      "merge_logs"  : true,
+      "cwd"         : "../client/src/",
+      "env": {
+        "NODE_ENV": "development"
+      }
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "chatbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:server": "node ./server/src/index.js",
+    "start:client": "node ./client/src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Roman Sachenko",
+  "license": "ISC",
+  "dependencies": {
+    "pm": "^2.2.6"
+  }
+}
